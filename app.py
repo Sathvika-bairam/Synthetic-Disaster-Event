@@ -6,7 +6,7 @@ import pandas as pd
 # Load trained model
 
 # Load modelpip
-with open(r"mlruns/1/models/m-3fc4dca3388c4a639f96d1ad61c0ada5/artifacts/model.pkl", "rb") as f:
+with open(r"model.pkl", "rb") as f:
     model = pickle.load(f)
 
 
